@@ -1,0 +1,23 @@
+.container {
+  margin: 0;
+}
+
+.header {
+  background-image: url("/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerTop {
+
+}

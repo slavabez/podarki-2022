@@ -1,7 +1,5 @@
-import React, {FC, PropsWithChildren} from "react";
+import React from "react";
 import styles from "../styles/Layout.module.css";
-import Head from "next/head";
-import Image from "next/image";
 
 interface ILayoutProps {
   pageTitle: string;
@@ -9,10 +7,7 @@ interface ILayoutProps {
 }
 
 const Layout = (props: ILayoutProps) => {
-  const {
-    pageTitle,
-    children,
-  } = props;
+  const { pageTitle, children } = props;
 
   return (
     <div className={styles.container}>
@@ -25,10 +20,7 @@ const Layout = (props: ILayoutProps) => {
         </div>
       </header>
       <main className={styles.main}>{children}</main>
-
-      <footer>
-
-      </footer>
+      <footer></footer>
     </div>
   );
 };

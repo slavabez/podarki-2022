@@ -21,3 +21,7 @@
 .headerTop {
 
 }
+
+.headerBottom {
+  min-height: 250px;
+}

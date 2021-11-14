@@ -71,6 +71,38 @@
   letter-spacing: -1px;
 }
 
+.footer {
+  width: 100%;
+  background-color: #17202a;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 2rem;
+}
+
+.footerHeader {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.footerHeader h2 {
+  font-size: 1.8rem;
+}
+.footerHeader hr {
+  width: 60%;
+}
+
+.footerAddressWrapper {
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.footerAddressBlock {
+  white-space: pre-wrap;
+}
+
 @media (min-width: 768px) {
   .header {
     min-height: 770px;
@@ -107,5 +139,29 @@
 
   .mobileLinks {
     display: none;
+  }
+
+  .footer {
+    width: 100%;
+    background-color: #17202a;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 2rem;
+  }
+
+  .footerHeader {
+  }
+  .footerHeader h2 {
+    font-size: 4rem;
+  }
+  .footerHeader hr {
+    display: none;
+  }
+
+  .footerAddressWrapper {
+    max-width: 100%;
+  }
+  .footerAddressBlock {
+    font-size: 1.8rem;
   }
 }

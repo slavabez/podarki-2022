@@ -31,15 +31,12 @@ export interface IMetaData {
   addressTwoContent: string;
   addressTwoHeading: string;
   catalogue: ISanityFile;
+  catalogueURL: string;
   catalogueHeading: string;
   contactsHeading: string;
   description: string;
   mainHeading: string;
   socialImage: ISanityImage;
+  socialImageURL: string;
   title: string;
-}
-
-export interface IHomePageProps {
-  metaData: IMetaData;
-  presents: IPresent[];
 }

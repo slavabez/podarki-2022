@@ -1,6 +1,6 @@
 {
-  "ms": 24,
-  "query": "*[_type == 'siteSettings'][0]",
+  "ms": 35,
+  "query": "*[_type == 'siteSettings'] {\n  ...,\n  \"catalogueURL\": catalogue.asset-\u003eurl,\n  \"socialImageURL\": socialImage.asset-\u003eurl\n}[0]",
   "result": {
     "_createdAt": "2021-11-12T17:05:28Z",
     "_id": "siteSettings",
@@ -21,6 +21,7 @@
       }
     },
     "catalogueHeading": "Каталог",
+    "catalogueURL": "https://cdn.sanity.io/files/vw14nmwz/production/7075ae7050ad624eb3bec6e8acf00cef683f9876.pdf",
     "contactsHeading": "Контакты",
     "description": "Детские новогодние подарки, новогодние кульки со сладостями в г. Кокшетау, г. Костанай и г. Петропавловск. Новогодние кульки с конфетами и шоколадом из Казахстана и России",
     "mainHeading": "Новогодние подарки",
@@ -31,6 +32,7 @@
         "_type": "reference"
       }
     },
+    "socialImageURL": "https://cdn.sanity.io/images/vw14nmwz/production/d9403bf1c4c6aebcb1cb259bec0ed7dcf7254edc-1200x628.png",
     "title": "Сказка - Новогодние подарки и кульки 2022"
   }
 }

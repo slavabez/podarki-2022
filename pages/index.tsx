@@ -1,22 +1,38 @@
 import Layout from "../src/components/Layout";
 import Seo from "../src/components/Seo";
-import { IHomePageProps } from "../src/helpers/types";
-import { generateImageUrl, getSanityData } from "../src/helpers/functions";
+import { IMetaData, IPresent } from "../src/helpers/types";
+import { getSanityData } from "../src/helpers/functions";
 import GallerySection from "../src/components/GallerySection";
+import ContentSection from "../src/components/ContentSection";
+
+interface IHomePageProps {
+  metaData: IMetaData;
+  presents: IPresent[];
+}
 
 const Home = (props: IHomePageProps) => {
   const { metaData, presents } = props;
   return (
-    <Layout pageTitle={metaData.mainHeading}>
+    <Layout
+      pageTitle={metaData.mainHeading}
+      catalogueURL={metaData.catalogueURL}
+      footerHeading={metaData.contactsHeading}
+      addressOneHeading={metaData.addressOneHeading}
+      addressOneText={metaData.addressOneContent}
+      addressTwoHeading={metaData.addressTwoHeading}
+      addressTwoText={metaData.addressTwoContent}
+    >
       <Seo
         title={metaData.title}
         description={metaData.description}
-        twitterImageUrl={
-          generateImageUrl({ image: metaData.socialImage }) ?? ""
-        }
+        twitterImageUrl={metaData.socialImageURL}
         canonicalUrl="some url"
       />
       <GallerySection presents={presents} />
+      <ContentSection
+        heading={metaData.aboutUsHeading}
+        text={metaData.aboutUsParagraph}
+      />
     </Layout>
   );
 };

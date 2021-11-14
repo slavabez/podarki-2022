@@ -1,0 +1,36 @@
+{
+  "ms": 24,
+  "query": "*[_type == 'siteSettings'][0]",
+  "result": {
+    "_createdAt": "2021-11-12T17:05:28Z",
+    "_id": "siteSettings",
+    "_rev": "F4I2ZtUM8TMtZeYeFka8kh",
+    "_type": "siteSettings",
+    "_updatedAt": "2021-11-12T17:05:28Z",
+    "aboutUsHeading": "Наша доставка",
+    "aboutUsParagraph": "Мы осуществляем доставку по Амолинской, Северо-Казахстанской и Костанайской областям. Свяжитесь с нами чтобы узнать о доставке в ваш населенный пункт.",
+    "addressOneContent": "ул. Ауэзова 191/1\n+7 716 225-45-45\n+7 707 425-63-86",
+    "addressOneHeading": "Кокшетау",
+    "addressTwoContent": "ул. Карбышева 117\n+7 714 239-24-27\n+7 707 967-68-31\n+7 707 260-23-62",
+    "addressTwoHeading": "Костанай",
+    "catalogue": {
+      "_type": "file",
+      "asset": {
+        "_ref": "file-7075ae7050ad624eb3bec6e8acf00cef683f9876-pdf",
+        "_type": "reference"
+      }
+    },
+    "catalogueHeading": "Каталог",
+    "contactsHeading": "Контакты",
+    "description": "Детские новогодние подарки, новогодние кульки со сладостями в г. Кокшетау, г. Костанай и г. Петропавловск. Новогодние кульки с конфетами и шоколадом из Казахстана и России",
+    "mainHeading": "Новогодние подарки",
+    "socialImage": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-d9403bf1c4c6aebcb1cb259bec0ed7dcf7254edc-1200x628-png",
+        "_type": "reference"
+      }
+    },
+    "title": "Сказка - Новогодние подарки и кульки 2022"
+  }
+}

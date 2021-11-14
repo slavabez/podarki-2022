@@ -1,4 +1,6 @@
-import { ISanityImage } from "./types";
+import { IMetaData, IPresent, ISanityImage } from "./types";
+import mockMetadata from "./metadata_mock.json";
+import mockProducts from "./products_mock.json";
 
 interface IParams {
   image: ISanityImage;
@@ -13,11 +15,40 @@ export function generateImageUrl(params: IParams) {
   if (!sanityDataset || !sanityId)
     throw new Error(`Sanity project ID or dataset not defined`);
 
-  const [type, assetName, origWidthHeight, origFileFormat] =
-    image.asset._ref.split("-");
+  try {
+    const [_, assetName, origWidthHeight, origFileFormat] =
+      image.asset._ref.split("-");
 
-  let url = `https://cdn.sanity.io/images/${sanityId}/${sanityDataset}/${assetName}-${origWidthHeight}.${origFileFormat}`;
+    let url = `https://cdn.sanity.io/images/${sanityId}/${sanityDataset}/${assetName}-${origWidthHeight}.${origFileFormat}`;
 
-  if (height) url = `${url}?h=${height}`;
-  return url;
+    if (height) url = `${url}?h=${height}`;
+    return url;
+  } catch (e) {
+    console.error(`Failed to generate image from this object`);
+    console.error(image);
+    console.error(e);
+  }
+}
+
+export async function getSanityData() {
+  if (process.env.NODE_ENV !== "production") {
+    return {
+      presents: mockProducts.result,
+      metaData: mockMetadata.result,
+    };
+  }
+  const allPresents = await fetch(
+    "https://vw14nmwz.api.sanity.io/v1/data/query/production?query=*%5B_type%20%3D%3D%20'present'%5D"
+  );
+  const allData = await fetch(
+    "https://vw14nmwz.api.sanity.io/v1/data/query/production?query=*%5B_type%20%3D%3D%20'siteSettings'%5D%5B0%5D"
+  );
+
+  const presents = (await allPresents.json()) as { result: IPresent[] };
+  const metaData = (await allData.json()) as { result: IMetaData };
+
+  return {
+    presents: presents.result,
+    metaData: metaData.result,
+  };
 }

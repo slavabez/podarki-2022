@@ -1,0 +1,1917 @@
+{
+  "ms": 36,
+  "query": "*[_type == 'present']",
+  "result": [
+    {
+      "_createdAt": "2021-11-10T15:55:45Z",
+      "_id": "14d55a1b-e6eb-40a3-b206-177625023ec6",
+      "_rev": "QPhGwHFNrPtk8rszfgHDFe",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T15:55:45Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-9c7a5f350bfe8d24aa8f649ab13b5559fdad2d2b-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "b9027d332e73",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-858c06454b5a88dff241b1ab8f6aed0ec473453e-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "2000",
+      "title": "Новогодняя юрта",
+      "weight": "700"
+    },
+    {
+      "_createdAt": "2021-11-10T11:03:30Z",
+      "_id": "14f97489-cbf1-4509-bd88-b9824158844b",
+      "_rev": "QPhGwHFNrPtk8rszfdHfi2",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T11:03:30Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-8bdcf3cd2b43f4f1dda3d706cabd37df46e1d17b-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "d00014816198",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-a2d4a06f8a1f1bf05d29923184a8484218b545b7-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "275f30309045",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-813785be2558d58168a6e62d7ab4f5a3fe47e516-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "570",
+      "title": "Зимушка",
+      "weight": "320"
+    },
+    {
+      "_createdAt": "2021-11-10T16:28:18Z",
+      "_id": "15350867-9eb4-45c3-97db-a2088569eb6d",
+      "_rev": "F4I2ZtUM8TMtZeYeFhDVSx",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T16:28:18Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-90b311ed660c54aa8e0893753cd08882b477cd5b-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "56914c0b25f5",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-832fcd554686284bd2475b1fa9234356aabc0c96-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "12c5b0b14bcc",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-4c2346b8236c1bf0c4f3c147550265d24a6251d1-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1750",
+      "title": "Тёплый праздник",
+      "weight": "720"
+    },
+    {
+      "_createdAt": "2021-11-10T16:37:26Z",
+      "_id": "1765c16f-fe11-462f-9d70-d7f150c6d38c",
+      "_rev": "QPhGwHFNrPtk8rszg1BSoe",
+      "_type": "present",
+      "_updatedAt": "2021-11-12T15:23:46Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-2e7390c57dd6b040604471a3f8292d75cfe74b93-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "4879e2ceb392",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-7d13f623a636c57fac8c08f25ea4caa012517f67-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "2000",
+      "slug": { "_type": "slug", "current": "figuristka" },
+      "title": "Фигуристка",
+      "weight": "800"
+    },
+    {
+      "_createdAt": "2021-11-10T12:19:38Z",
+      "_id": "190f8514-7b2e-41a7-8e0f-e81c1ae1fd28",
+      "_rev": "F4I2ZtUM8TMtZeYeFgp6u4",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:19:38Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-0ce17debd362d3899694ab7d896074e283f36841-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "a6265246dda3",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-9a1f935f5e86c2f701085c0a4190839a49dabad3-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "7c3649cd7d40",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-b28f5be424e16a10e6307d9a2b7e2d6b37e6cd6f-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1200",
+      "title": "Новогодние хлопоты",
+      "weight": "580"
+    },
+    {
+      "_createdAt": "2021-11-10T15:50:42Z",
+      "_id": "1c1b771f-d5af-4b1f-8e10-d9a493f45632",
+      "_rev": "F4I2ZtUM8TMtZeYeFhA1jX",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T15:50:42Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-6f7d80639110cdf8156bae61c64a5012633126aa-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "fd9414a7fe1a",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-060e6171e3ae635b7a7d936d7a702142f2679da3-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "31d6458e96d9",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-9f3428c73b1e8350c1b0eb76b06a0b273250336b-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1000",
+      "title": "Новогодние радости",
+      "weight": "460"
+    },
+    {
+      "_createdAt": "2021-11-10T15:52:35Z",
+      "_id": "1d8df1c0-540a-4464-8be1-685f1aca31b6",
+      "_rev": "QPhGwHFNrPtk8rszfgFD1c",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T15:52:35Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-44318263887703c448ba38e8b364fc42545b36e4-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "33248909cfc2",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-c1b6baf00e37dcd27e9a5d08a2cecd406af05d67-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1300",
+      "title": "Волшебная ночь",
+      "weight": "600"
+    },
+    {
+      "_createdAt": "2021-11-10T12:03:38Z",
+      "_id": "2105d936-e24e-4987-9342-981851c20ca8",
+      "_rev": "slhu75a3VNa7eUnvQmA86D",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:05:26Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-1eda9f75509f4759567e07f47d3e583019b10950-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "fefd26fac065",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-bbad332f921799ac1e64ce52413ee85fe3376ce0-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "950",
+      "title": "Тигренок в чайнике",
+      "weight": "465"
+    },
+    {
+      "_createdAt": "2021-11-10T10:30:28Z",
+      "_id": "231e7a05-9ecd-4104-95d0-e0a45509bf9d",
+      "_rev": "QPhGwHFNrPtk8rszfdHFpE",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T11:02:32Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-296db7b141df3653b07e3c841f8865f6c3fca3be-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "22247d0310b7",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-6c2c8be4e077975e28bc82c302a1d591f7c05b0c-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "377b2bdc746a",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-a32508226ec32d830c66fad2e32dc28f64afae38-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "eb7ccb36497f",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-44cd24a0c793ec0fa9b4a2902dc326ff2ad1cc01-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "415",
+      "title": "Кубик маленький",
+      "weight": "225"
+    },
+    {
+      "_createdAt": "2021-11-10T15:57:00Z",
+      "_id": "2cea554c-0723-4d5f-877f-1bb31d7a86cf",
+      "_rev": "QPhGwHFNrPtk8rszfgIIbG",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T15:57:00Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-5742537582ed9df9e0dcb15ec4048e2e08407d93-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "134d704737f0",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-cfe29f523165c8da9262de2837ec844c505aa588-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "9f5f1f5f64ac",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-22ed2037c93081b8549a3bfc590cf3a7ae447df7-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "81d0378ce3da",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-8c9f6bffdc33b5c6afd9cbb2e6537fcb7ce7fb80-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "0e47fda4ace8",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-2d6c5fedcc347b704685355f0e6c44e4c452cdff-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1700",
+      "title": "Новогодняя ёлка",
+      "weight": "690"
+    },
+    {
+      "_createdAt": "2021-11-10T15:53:34Z",
+      "_id": "32c8122b-87c8-4a85-b5d3-2222eeceeeb1",
+      "_rev": "slhu75a3VNa7eUnvQmdGp9",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T15:53:34Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-b88df8172f1bbf04d61217ef58539ffc299a79ad-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "bbc62865ede8",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-81b317152ee01d4fe1db98a3f71401ea475fd98f-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "c920477d081d",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-a8af366c3a2942fd6f4fc9f925e189a5869b451e-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1400",
+      "title": "Книга Новогодних рецептов маленькая",
+      "weight": "640"
+    },
+    {
+      "_createdAt": "2021-11-10T12:16:37Z",
+      "_id": "3789b847-f6c4-4059-bc2a-8e2083238957",
+      "_rev": "F4I2ZtUM8TMtZeYeFgosr8",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:16:37Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-679624f0ea858c8228073be3f322291670535f79-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "6c66ff063e00",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f65d86598d59196acc4eb893936c6bd520de1a0e-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "960",
+      "title": "Конфета Снеговик",
+      "weight": "470"
+    },
+    {
+      "_createdAt": "2021-11-10T12:13:44Z",
+      "_id": "3a7b836c-4492-4618-a9c0-691c18bd1cf2",
+      "_rev": "QPhGwHFNrPtk8rszfdwD3G",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:13:44Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-7d0c729ef79066fe284cb7154044282bc4fa3e81-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "1db99f463f37",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-578ef4736678007f63ed868b0099f6d2dd17acaf-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "538946875542",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-92c79b9f43afc1098346572fa2fe7c4957062f24-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "950",
+      "title": " Ёжик и Снеговик",
+      "weight": "419"
+    },
+    {
+      "_createdAt": "2021-11-10T12:00:32Z",
+      "_id": "3b467409-fc27-4c06-a110-a02db67c639b",
+      "_rev": "slhu75a3VNa7eUnvQm9Eqj",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:00:32Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-a21d03ccf2fa59b307044817dd53027e869058b2-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "c4818e6dcd8f",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-51991e25f8931903ba231296108650a5258beed9-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "a17f169db6d9",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-4316054c285929e198202ff20b86cf1664059ac3-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "0cc6b98ca590",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-933e3586e6de2bdad35c5ff070c4092f2869ee75-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "e2218111b92d",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-a479af76dab60fda2f7b8deed4f3fc4ae9606ad6-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "600",
+      "title": "Недорогой подарок",
+      "weight": "300"
+    },
+    {
+      "_createdAt": "2021-11-10T15:46:34Z",
+      "_id": "3bf1d04f-9dad-468d-94ec-a0cf641e9644",
+      "_rev": "slhu75a3VNa7eUnvQmc56p",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T15:46:34Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-1a676942ce93f687d928f2e6208c719298087923-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "cf41c6b3e09b",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-a29c3541d1b7a8138ba1c68a64595b8ce470421b-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "459d5f453f2e",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-875eadfde549c6bb95c2bb841ccdd714b9a47f72-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "950",
+      "title": "Подарок с ёлочкой",
+      "weight": "450"
+    },
+    {
+      "_createdAt": "2021-11-10T15:55:00Z",
+      "_id": "429ca29e-3705-4a63-a3f7-80ea6a758603",
+      "_rev": "slhu75a3VNa7eUnvQmdTjd",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T15:55:00Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-499a5b4d9836b8af6daf8dbc3854b7dbe56cf015-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "147a88860273",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-b1abc45c02db20b4ccd8db9a703c1bca349a877f-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1500",
+      "title": "В гостях у тигра",
+      "weight": "670"
+    },
+    {
+      "_createdAt": "2021-11-10T16:29:07Z",
+      "_id": "4bf95f2a-8475-48a8-b06b-6271805ca3a3",
+      "_rev": "F4I2ZtUM8TMtZeYeFhDZm5",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T16:29:07Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-6ea9fb6d105c60c15f857c7b06c15767c28c4eb8-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "9927f7621dc8",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-6c698694afad7f41aa0451962bdbc3677a5db842-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1700",
+      "title": "Щелкунчик",
+      "weight": "730"
+    },
+    {
+      "_createdAt": "2021-11-10T11:20:38Z",
+      "_id": "5a4d1936-d12e-4d77-8cfc-0029eb782f91",
+      "_rev": "slhu75a3VNa7eUnvQm48Sv",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T11:20:38Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-5e44100389b61054835d93e16fa4d1d0c1dd96d8-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "price": "650",
+      "title": "Пейзаж",
+      "weight": "350"
+    },
+    {
+      "_createdAt": "2021-11-10T11:57:53Z",
+      "_id": "5e822d94-8e0d-4b75-81ad-abf9bbae3ffd",
+      "_rev": "F4I2ZtUM8TMtZeYeFgn1LE",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T11:57:53Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-aa1f4cd14337289fc851a82e410ff96e611ca6f7-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "4deda7bdec3c",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-1a90bc4d3ce8e25867df62233bdadfd878a97819-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "c6afec68cd68",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-2dc7e83641249656ad497aec0e484b832d71e5b2-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "6df01ac2171b",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-e875d9e35cbb63216488e56e08ec7ab20867c803-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "8985aabd931e",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-d35c95336e85f7eec504309a7a53b9f0fde3b0a8-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "1303b695a462",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-9ebb110940caaa9219aa6904e6968192de1f918d-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "440",
+      "title": "Новогодний домик",
+      "weight": "210"
+    },
+    {
+      "_createdAt": "2021-11-10T12:21:14Z",
+      "_id": "63e31493-2522-447a-b78e-05858d311828",
+      "_rev": "QPhGwHFNrPtk8rszfe0r7s",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:21:14Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-01781a5332b59d38a616720c2fbb34020a41c9f9-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "47a1576dd324",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-ccd0f408c71da3c2eab5d4fd486ede7db019d359-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "95313ef4cb49",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-abb1a2a5463c85bbe87f54c974704555b4f0e384-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "9f7e9e736c0f",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-8507852261684a8a3c7746bc77c5f69ebdd4e533-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "0b289cb37202",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-7c7514e751ebd4edf509cb577930fe4dfb7d2789-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1100",
+      "title": "Спорт",
+      "weight": "570"
+    },
+    {
+      "_createdAt": "2021-11-07T15:35:38Z",
+      "_id": "668a99c6-3a8e-4fac-b7bf-8cfe70f5aa3e",
+      "_rev": "slhu75a3VNa7eUnvQjthcb",
+      "_type": "present",
+      "_updatedAt": "2021-11-09T15:50:39Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-70344ba1be79f5a8202a8e2eda0f8fab07e44a30-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "e52d424c4114",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-ebffb404a7aa0ab8b9407aed88623179be161a03-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "1dd65d204dc8",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-c6cd90dd8927c5c1a70205d9841e78aebdf13781-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "300",
+      "title": "Мини-Кубик",
+      "weight": "150"
+    },
+    {
+      "_createdAt": "2021-11-10T12:31:54Z",
+      "_id": "67992879-ed10-4514-9b51-d3f35507057e",
+      "_rev": "F4I2ZtUM8TMtZeYeFgrP5K",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:31:54Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-f66d5bf77725302ffa182aa708d195743b05bbb4-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "c8658a50c568",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-803ad5fddc5850850fa2b3330eee149b30c343e1-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "525d3361e90e",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-0346405cf6330674f1b484f06179da779e87d009-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1300",
+      "title": "Супергерои",
+      "weight": "650"
+    },
+    {
+      "_createdAt": "2021-11-10T16:31:53Z",
+      "_id": "69fb970d-bbd5-49b6-bd2d-fb45700388a6",
+      "_rev": "QPhGwHFNrPtk8rszfge8mA",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T16:31:53Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-155b2711070053b91ce232285d42eda3e10421a7-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "7beeb72d7c36",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-83c84f0904ab96157ce288aece1619a20509d2c1-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "434002cce3ee",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-03705f72d99f15e381ab7e915217fab93b798330-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "606076abf062",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-a69d1d13d580d720a914b297830238228c286725-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "2000",
+      "title": "Кормушка",
+      "weight": "825"
+    },
+    {
+      "_createdAt": "2021-11-10T12:04:06Z",
+      "_id": "6b55ee3b-2b28-4fdf-be45-3d822092d383",
+      "_rev": "F4I2ZtUM8TMtZeYeFgnwJy",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:04:06Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-8836324e616859c0518f35f46857236f381d49da-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "54703a7a139a",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-e57b37bd0d79419eade58ef39ec2e94339696d94-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "89419a736ab7",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-23f1aa53f7f19c692249bfa82cee4f07c3f5c9cd-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1000",
+      "title": "Барсик",
+      "weight": "475"
+    },
+    {
+      "_createdAt": "2021-11-10T12:14:39Z",
+      "_id": "6fa0275f-9436-4bb2-89c1-6fedb7e185f3",
+      "_rev": "F4I2ZtUM8TMtZeYeFgocxb",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:14:39Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-4fe29b5e5f6959615e623a0a34c9317c7164c5d1-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "13b3fa071b0b",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-c1638164cf3fdd2e853a6d12cff4958824346f9c-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "dedeb1073cd1",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-ed089bdd926f333219b7c5ae46e2842092ec04e5-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1000",
+      "title": "Рыжее чудо",
+      "weight": "460"
+    },
+    {
+      "_createdAt": "2021-11-10T12:21:56Z",
+      "_id": "724f89e5-8ca7-4a54-904e-93e2408cdffe",
+      "_rev": "QPhGwHFNrPtk8rszfe1CP2",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:21:56Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-9f38fa14b62bc4926f12815eeeb28fbbcbd437fc-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "5c1ce3651329",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-46364a24a0e729edad2896c9cb2db56ddbaff63f-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1200",
+      "title": "Праздник во дворе",
+      "weight": "580"
+    },
+    {
+      "_createdAt": "2021-11-10T15:49:08Z",
+      "_id": "77c4daff-312e-4a88-be46-f1406b8716e3",
+      "_rev": "F4I2ZtUM8TMtZeYeFh9uBf",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T15:49:08Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-edc69f6b144546420cde3865a2f9a4c7f40fc915-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "ee79cb6773b2",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-8e88e666be9e49f25f4635f7bb98e010c5696cb0-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "027820ac503b",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-350668d59b5b5cb867bd921deb97848d3d7d8d86-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "773f454226b9",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-3e1da5b4b1252c9342f294906c3379b637ed965f-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "396f265bfd88",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-7ea8a4452a59d5098d7741ee7fdd85ee059ab96a-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "900",
+      "title": "Новогодний подарок",
+      "weight": "430"
+    },
+    {
+      "_createdAt": "2021-11-10T11:08:02Z",
+      "_id": "7911f081-afa6-4bd4-b0f1-b72d2747d37b",
+      "_rev": "F4I2ZtUM8TMtZeYeFginak",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T11:08:02Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-95f909be6ef67758b70ab9ee774fa8d416339200-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "cead82cd6126",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-614a1b943bf0770ca2561d77a0e03b74cc9ebb32-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "884d7b6fdc98",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-e88bdab958d454101ac9ec495685a58b5d62f89d-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "464c7f002b95",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-22dabceb93eef821b25f0f505feb9250ed4e8f98-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "76b6959604cd",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-25f2b33fe2c10937af467f2cc34ccb4c57e62d4d-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "500",
+      "title": "Снежок",
+      "weight": "275"
+    },
+    {
+      "_createdAt": "2021-11-10T16:33:33Z",
+      "_id": "84fe0fc3-8b0f-4e08-83f0-74635b6e7136",
+      "_rev": "F4I2ZtUM8TMtZeYeFlXf1V",
+      "_type": "present",
+      "_updatedAt": "2021-11-13T13:07:43Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-2e00158755c0da32a3d003d4729ddf295204f5e2-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "f0c606875476",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f845f1717b364891f5c8d7eaf3c3b2ca0ee943ec-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1600",
+      "slug": { "_type": "slug", "current": "ded-moroz" },
+      "title": "Дед Мороз",
+      "weight": "640"
+    },
+    {
+      "_createdAt": "2021-11-10T16:32:48Z",
+      "_id": "911be9b3-e9f1-46c3-9834-caabec7b6f3d",
+      "_rev": "slhu75a3VNa7eUnvQmipeV",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T16:32:48Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-1eb683fb194d3e90257468efe9357e0077b670ce-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "1dd9ab5752f8",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-ae757e4f538eae50e7c55d4ede894cd37d6b4fd1-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "76577fbce8ee",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-72567c6c67e298d6e89617f791fe1447901f32c1-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "fac68f74c32e",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-05c82554e9223895b162403c0c058fe27a0da81c-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1765",
+      "title": "Вместе весело / Снегири",
+      "weight": "805"
+    },
+    {
+      "_createdAt": "2021-11-10T12:17:19Z",
+      "_id": "99f2faea-4063-4954-bcef-c8d2d7f472de",
+      "_rev": "QPhGwHFNrPtk8rszfdz1SE",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:17:19Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-3dde32b55fadd72b54c24374471ef110437e0bf1-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "366d4243f92d",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-69464438f0e80c0bf420d953a5542f01c632b46b-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "780",
+      "title": "Конфета Дед Мороз",
+      "weight": "370"
+    },
+    {
+      "_createdAt": "2021-11-10T12:01:21Z",
+      "_id": "9bba2406-c36d-45c2-986f-5b6421c9ea60",
+      "_rev": "F4I2ZtUM8TMtZeYeFgndfj",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:02:08Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-42055479a1b614f65fcc66b02894ff20bd1b98d1-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "7bd3f1e52c1d",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-79e56c3287ee13f81d6436f440499526b6d12633-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "aecde85a86f0",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-cbdc92b065c56588a0cfe33a7b826f3be5df29e8-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "b8b8129d0fc4",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-ff31392809d9d8b704c5207e706e9cfa433b5ccd-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "8729f40f0ecd",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-ca0cc10727d69acfa59928ecb4b0763499d0fd53-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "600",
+      "title": "Домик зверят",
+      "weight": "285"
+    },
+    {
+      "_createdAt": "2021-11-10T12:08:55Z",
+      "_id": "a0f49c97-a159-47e7-95d7-08de21e98f36",
+      "_rev": "slhu75a3VNa7eUnvQmAPvX",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:08:55Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-1f5ed99e644d380367eca99d6d2e791053621ecf-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "76d6e4cab21c",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-9b4aee1fa3d91f4a5470d5ea30aa4176e977742a-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "272c7a1f17c1",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-45a1d21cfc37d958ce3669f1b59eafee6dc9ac2a-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "bad897d9bc59",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f3f10b75fe9bb97dfe9a607dac15cff61c2d4b2a-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "810",
+      "title": "Кубик с окошком",
+      "weight": "370"
+    },
+    {
+      "_createdAt": "2021-11-10T11:43:14Z",
+      "_id": "a3ef2224-6336-4243-a3d5-bdbcac2a147f",
+      "_rev": "slhu75a3VNa7eUnvQm6vbl",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T11:43:14Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-84b49d70aa897b74dd1d42f0025ef7dd1c48b800-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "2da78b68da66",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-795e7e603a8e5bf9b18a3e90a7e1a48994d41c2a-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "f9a0054baf53",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-4de559ff4add61c9ac11d93c79822eb02415c9b7-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "750",
+      "title": "Шале",
+      "weight": "380"
+    },
+    {
+      "_createdAt": "2021-11-10T16:27:13Z",
+      "_id": "a7884650-8af6-47a2-ab77-69ed8e12cca7",
+      "_rev": "QPhGwHFNrPtk8rszfgb9u0",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T16:27:13Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-326e33f0aff9b355e9d6a576b2cb2f3af5d8951c-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "464d707ad566",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-9b94c87b244196f996a3e9b5507c9e8bbab79dde-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1900",
+      "title": "Селфи",
+      "weight": "845"
+    },
+    {
+      "_createdAt": "2021-11-10T12:01:09Z",
+      "_id": "a7baaad4-4385-4949-a53d-b5f0dd4b6367",
+      "_rev": "QPhGwHFNrPtk8rszfdnDFQ",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:01:09Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-1a67ee99cd65cb7330a071a004a8cf8ef2bd226d-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "96b44aa9bfbc",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-6266acf016e5c8cfb2ff29f79239e00dee608394-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "3b90af7108af",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-5f4b7e18aed0f1f712b9c590ca6dd34fa786a934-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "485",
+      "title": "Детки",
+      "weight": "220"
+    },
+    {
+      "_createdAt": "2021-11-10T12:18:07Z",
+      "_id": "af06018e-5f2e-43b5-a24d-40bc595ef29b",
+      "_rev": "F4I2ZtUM8TMtZeYeFgp0p5",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:18:07Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-65e52c2b270402972907537012a9421d4633bc77-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "d6e6778e89ac",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-560ffbf3593b431f74d52d925af0d4df6ecce440-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "a4834bc127b5",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-ffc297d2e7735609bb0efc558b08bc6d01006237-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1000",
+      "title": "Кубик Звездопад",
+      "weight": "500"
+    },
+    {
+      "_createdAt": "2021-11-10T11:35:49Z",
+      "_id": "b0a2a64d-1a5b-4597-a78d-e88b49870c34",
+      "_rev": "QPhGwHFNrPtk8rszgEONMc",
+      "_type": "present",
+      "_updatedAt": "2021-11-14T11:40:18Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-1f2f0774c7de440f729c3f9aec1694b67bbc7dda-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "56bc330b3430",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-54cb3bcfeedbd07f95a6f87c523cefdab6334f38-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "560",
+      "title": "Дружный Новый Год",
+      "weight": "295"
+    },
+    {
+      "_createdAt": "2021-11-10T16:34:52Z",
+      "_id": "bdc6fce0-33e4-40a6-84ed-dd35592d3feb",
+      "_rev": "F4I2ZtUM8TMtZeYeFkPcq1",
+      "_type": "present",
+      "_updatedAt": "2021-11-12T15:23:54Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-e95997497ec2d1a9fc24508041d03200bd5a5097-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "e61d18a5dc34",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-8b8d50eddcd2e35b85a9f7cfdbed1b7d3c82d0ce-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "2000",
+      "slug": { "_type": "slug", "current": "elvis" },
+      "title": "Элвис",
+      "weight": "800"
+    },
+    {
+      "_createdAt": "2021-11-10T11:58:38Z",
+      "_id": "bdc8a059-44b9-4d8d-ba0e-2bd7d6f360d3",
+      "_rev": "QPhGwHFNrPtk8rszfdlrTs",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T11:58:38Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-53ff9328a05cdbfde8425c545cfebe3e73761fb7-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "882e1ba3bf8e",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-50cc6ef5b61d8bc72ae927b5ff432809afff1115-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "40f2697581dc",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-8ae075ce7f2e09999e2110e35f6e9250fcf89366-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "02bea8597d8c",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-13319b4eb919eb0a926e7554289690c5eb4a3336-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "535",
+      "title": "Праздник маленький",
+      "weight": "270"
+    },
+    {
+      "_createdAt": "2021-11-10T12:09:55Z",
+      "_id": "bf294474-885d-49f9-98cb-6dffeeb93e58",
+      "_rev": "F4I2ZtUM8TMtZeYeFgoIaf",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:09:55Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-191243c97f4e0e4d8c8b610b8140744a99745f9f-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "fcba99cbabef",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-902f77e83ec6b8073fcbf1b944df215d9465259e-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "950",
+      "title": "Конфета с белочкой",
+      "weight": "410"
+    },
+    {
+      "_createdAt": "2021-11-10T15:44:58Z",
+      "_id": "bf70b95c-0c8f-4c7d-a731-6230fd327a2c",
+      "_rev": "F4I2ZtUM8TMtZeYeFh8rq7",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T15:44:58Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-0140954fd4295ce263cbdcf238d130c63774282e-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "40a13146e19f",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-a633e771966c95b117e6bda7fe4686402e5387bc-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1500",
+      "title": "Сумочка Золотые игрушки",
+      "weight": "580"
+    },
+    {
+      "_createdAt": "2021-11-10T16:22:12Z",
+      "_id": "c0403518-a110-4080-ae56-f3d9f127d3bb",
+      "_rev": "slhu75a3VNa7eUnvQmhYNp",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T16:22:12Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-f507011361b9a8856fcc467783be258c7460f857-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "05acafa0086e",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-46edb38881d0dc16dd67db60954b388c18ad12ac-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1240",
+      "title": "Новогодний колпак",
+      "weight": "540"
+    },
+    {
+      "_createdAt": "2021-11-10T12:20:23Z",
+      "_id": "c10b1aac-d702-4315-8515-c5d9f65af84a",
+      "_rev": "slhu75a3VNa7eUnvQmBgC7",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:20:23Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-e89b95c080005704892dc6be631b0b6cef2bcc79-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "aede589edd55",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-c64e7ff0c5ca718077aa121045970402aece02f6-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "b43f9c04991a",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-799cd6526fa9622371429515e09b36223027ac64-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1100",
+      "title": "Сладкий сюрприз",
+      "weight": "575"
+    },
+    {
+      "_createdAt": "2021-11-10T15:52:07Z",
+      "_id": "c59744f1-a248-4c00-904a-69a3ca084e99",
+      "_rev": "slhu75a3VNa7eUnvQmd5Jb",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T15:52:07Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-e05c9495c6df752410a6f577107f58d5da3eb82e-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "6406f3194b02",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-f5c9213ac7fe0ebb6f6297c29e0439698ceec795-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "4ac7300124bc",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-2f862feec25f0a09e3c9960207db38dd106995c0-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1300",
+      "title": "Серпантинка",
+      "weight": "590"
+    },
+    {
+      "_createdAt": "2021-11-10T16:29:38Z",
+      "_id": "d6da2e76-a012-4b22-9db1-8e8d726aa111",
+      "_rev": "F4I2ZtUM8TMtZeYeFhDlZ8",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T16:31:04Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-eb0b0321b3c3f40e4683bcbb27134ebf3dbf7bbd-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "7ad680916d60",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-b8922904803bf200993dab623e0d06c9bbdf3d8b-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "d2981214c360",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-d84da8d7bf643b09efc055b3b93d1043e83519c4-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1700",
+      "title": "Книга ребусов",
+      "weight": "740"
+    },
+    {
+      "_createdAt": "2021-11-10T16:33:09Z",
+      "_id": "e145808f-9b1e-42fa-9358-0d9404e77fd0",
+      "_rev": "slhu75a3VNa7eUnvQmis6v",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T16:33:09Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-15d54209fe2d22a71f8f79272430ba9896afaec8-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "5b04d1bffc93",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-5833a07cdc1d68bd8f2bd3ef9f96bf61add68f1f-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1800",
+      "title": "Шалун",
+      "weight": "750"
+    },
+    {
+      "_createdAt": "2021-11-10T15:49:40Z",
+      "_id": "e466a44c-94cd-440a-9857-18886df06bc5",
+      "_rev": "slhu75a3VNa7eUnvQmcolJ",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T15:49:40Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-df1e661d9af41e2bc9375f11265e5960fc3de04e-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "133678839a2f",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-e66396d9ee13644e1b8fe572fb024b5c79ce262f-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "e4c30ff6753d",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-9d00a5b635c1d1753de920394be6c6e99c38b5b9-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1200",
+      "title": "Часы",
+      "weight": "580"
+    },
+    {
+      "_createdAt": "2021-11-10T16:29:41Z",
+      "_id": "e4e71c52-47e4-4d52-ad5e-d2633320657c",
+      "_rev": "slhu75a3VNa7eUnvQmiYOB",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T16:30:18Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-083d6f6c4257cb7dd0cc5211088e8c2a63052359-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "8ebca4c03ccc",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-51c818690c8ebf9b90afaf428b1894d481e780c1-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1700",
+      "title": "Новогодний фонарь",
+      "weight": "740"
+    },
+    {
+      "_createdAt": "2021-11-10T15:51:21Z",
+      "_id": "f1c394f0-7063-42d9-ba8e-176285d5f03b",
+      "_rev": "QPhGwHFNrPtk8rszfgEZUG",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T15:51:21Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-7e448b3a835584aee9fda8efcbdaff927f560ae6-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "919a39ffd177",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-2faf8cea7762de5a8f0cf143505e311b6311ddb6-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "66eb050f28fd",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-7f79d48073e58f64ccabf67a52213fd66f57a979-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "f63e4cc6ce2b",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-47e159f66e7b9544910e563a65923cc970555923-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1270",
+      "title": "Бандероль",
+      "weight": "580"
+    },
+    {
+      "_createdAt": "2021-11-09T15:52:00Z",
+      "_id": "f2a2b2f5-03ad-4bcc-8541-2867df22be58",
+      "_rev": "slhu75a3VNa7eUnvQjts2P",
+      "_type": "present",
+      "_updatedAt": "2021-11-09T15:52:10Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-1bf09a09f356f083a8d3d1193db755e0bbc1b8a1-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "b1c90fe39f63",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-323c63753fb6043eb17549402b71fd7c56f01435-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "d999de6e76e1",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-004be9cc1ee744586b30f001a0722eba22607693-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "385",
+      "title": "Конфета маленькая",
+      "weight": "205"
+    },
+    {
+      "_createdAt": "2021-11-10T11:59:15Z",
+      "_id": "fab31b77-5016-430b-bbb1-56c22b37ef58",
+      "_rev": "QPhGwHFNrPtk8rszfdmCQG",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T11:59:15Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-5402807f3b6fec79da031d370b52b58de4c552f6-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "40cc85792737",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-008164477523535d6fa01f2af81b7afc64778c21-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "535",
+      "title": "Ребусы-загадки",
+      "weight": "270"
+    },
+    {
+      "_createdAt": "2021-11-10T15:54:05Z",
+      "_id": "fbaaaf42-c7c0-4fc6-81e2-769c7748310c",
+      "_rev": "F4I2ZtUM8TMtZeYeFhAIB3",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T15:54:05Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-251df4f906a44b6e15e757e2e93151b717b18669-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "fe9056e71a3d",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-e3ec1c597f5e01fd060ebf6584c6b549ee6bddeb-3024x3024-jpg",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "ae5b91adfea8",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-07ffa208a1be0b3b234ccc23d2190d332a712ddd-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1400",
+      "title": "Книга Зоопарк маленькая",
+      "weight": "640"
+    },
+    {
+      "_createdAt": "2021-11-10T12:24:32Z",
+      "_id": "fdd3c353-0944-4df3-89af-9a0cfa1b29bd",
+      "_rev": "slhu75a3VNa7eUnvQmC6nd",
+      "_type": "present",
+      "_updatedAt": "2021-11-10T12:24:32Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-558fcee5812b1af079e51ee2fe80e44a8eba1cb8-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "22624ceadda7",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-26b4a3887ca87c5bf339b2d5fcedd76da8721e83-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1200",
+      "title": "Лосяш",
+      "weight": "580"
+    },
+    {
+      "_createdAt": "2021-11-10T16:34:23Z",
+      "_id": "ffb98146-9614-4655-8113-9393d4f02287",
+      "_rev": "slhu75a3VNa7eUnvQrTQe1",
+      "_type": "present",
+      "_updatedAt": "2021-11-12T17:05:43Z",
+      "cover": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-141c402fa5102632967ee17dec23fc2fa63f2829-3024x3024-jpg",
+          "_type": "reference"
+        }
+      },
+      "images": [
+        {
+          "_key": "87e75f60f9e7",
+          "_type": "image",
+          "asset": {
+            "_ref": "image-0a6ca6ef44555fd2756e5d80abc31563901eb7de-3024x3024-jpg",
+            "_type": "reference"
+          }
+        }
+      ],
+      "price": "1600",
+      "slug": { "_type": "slug", "current": "snegurochka" },
+      "title": "Снегурочка",
+      "weight": "640"
+    }
+  ]
+}

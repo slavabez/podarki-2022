@@ -6,7 +6,7 @@ import { generateImageUrl } from "../src/helpers/functions";
 const Home = (props: IHomePageProps) => {
   const { metaData, presents } = props;
   return (
-    <Layout pageTitle={metaData.title}>
+    <Layout pageTitle={metaData.mainHeading}>
       <Seo
         title={metaData.title}
         description={metaData.description}

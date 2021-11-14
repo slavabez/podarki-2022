@@ -2,8 +2,6 @@
   margin: 0;
 }
 
-
-
 .header {
   display: flex;
   flex-direction: column;
@@ -14,10 +12,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-
 }
-
-
 
 .header * {
   z-index: 10;
@@ -35,7 +30,6 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -44,7 +38,6 @@
 }
 
 .headerTopMobile {
-
 }
 
 .headerTopDesktop {
@@ -60,7 +53,7 @@
 
 .headerBottom > span {
   color: white;
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: "Rubik Mono One", sans-serif;
   font-size: 1.8rem;
   text-align: center;
 }
@@ -73,14 +66,12 @@
 
 .mobileLinks a {
   padding: 1rem;
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: "Rubik Mono One", sans-serif;
   text-align: center;
   letter-spacing: -1px;
 }
 
-
-@media(min-width: 768px) {
-
+@media (min-width: 768px) {
   .header {
     min-height: 770px;
     background-image: url("/banner_xl.png");
@@ -99,7 +90,7 @@
 
   .headerTopDesktop > * {
     padding: 1rem;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: "Rubik Mono One", sans-serif;
     text-align: center;
     letter-spacing: -1px;
     color: white;
@@ -114,4 +105,7 @@
     font-size: 5rem;
   }
 
+  .mobileLinks {
+    display: none;
+  }
 }

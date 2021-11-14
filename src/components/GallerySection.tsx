@@ -12,7 +12,9 @@ function GallerySection(props: IGalleryProps) {
   return (
     <section className={styles.gallerySection}>
       <div className={styles.galleryHeader}>
+        <hr className={styles.mobileSeparator} />
         <h1>Каталог</h1>
+        <hr className={styles.desktopSeparator} />
       </div>
       <div className={styles.presentsGrid}>
         {props.presents.map((present) => {

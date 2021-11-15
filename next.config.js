@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const withPWA = require('next-pwa')
+
+module.exports = withPWA({
   reactStrictMode: true,
   images: {
     domains: ["cdn.sanity.io"],
   },
-};
+});

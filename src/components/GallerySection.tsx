@@ -18,7 +18,7 @@ function GallerySection(props: IGalleryProps) {
       </div>
       <div className={styles.presentsGrid}>
         {props.presents.map((present) => {
-          const description = `Новогодний подарок "${present.title}", ${present.weight}гр за ${present.price} тенге.`;
+          const description = `Новогодний подарок "${present.title}", ${present.weight}гр за ${present.price} тенге. Состав подарков может незначительно отличаться от картинки`;
           return (
             <SimpleReactLightbox key={present._id}>
               <SRLWrapper
@@ -41,7 +41,7 @@ function GallerySection(props: IGalleryProps) {
                         key={present._id}
                         src={generateImageUrl({
                           image: present.cover,
-                          height: 140,
+                          height: 220,
                         })}
                         alt={description}
                       />
@@ -63,7 +63,7 @@ function GallerySection(props: IGalleryProps) {
                             key={present._id}
                             src={generateImageUrl({
                               image: img,
-                              height: 43,
+                              height: 51,
                             })}
                             alt={description}
                           />

@@ -26,7 +26,8 @@
   justify-content: center;
 }
 
-.cardImageWrapper {
+.image {
+  width: 100%;
 }
 
 .otherImagesWrapper {

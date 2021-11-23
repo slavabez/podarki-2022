@@ -39,6 +39,7 @@ function GallerySection(props: IGalleryProps) {
                     >
                       <img
                         key={present._id}
+                        className={styles.image}
                         src={generateImageUrl({
                           image: present.cover,
                           height: 220,
@@ -61,6 +62,7 @@ function GallerySection(props: IGalleryProps) {
                         >
                           <img
                             key={present._id}
+                            className={styles.image}
                             src={generateImageUrl({
                               image: img,
                               height: 51,

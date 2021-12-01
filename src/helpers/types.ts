@@ -21,6 +21,8 @@ export interface IPresent {
   price: string;
   title: string;
   weight: string;
+  outOfStock?: boolean;
+  orderOnly?: boolean;
 }
 
 export interface IMetaData {

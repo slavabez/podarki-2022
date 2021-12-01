@@ -18,7 +18,16 @@ function GallerySection(props: IGalleryProps) {
       </div>
       <div className={styles.presentsGrid}>
         {props.presents.map((present) => {
-          const description = `Новогодний подарок "${present.title}", ${present.weight}гр за ${present.price} тенге. Состав подарков может незначительно отличаться от картинки`;
+          let description = `Новогодний подарок "${present.title}", ${present.weight}гр за ${present.price} тенге. Состав подарков может незначительно отличаться от картинки`;
+
+          const wrapperClasses = [styles.cardWrapper];
+          if (present.orderOnly && !present.outOfStock) {
+            wrapperClasses.push(styles.orderOnly);
+            description = `ТОЛЬКО НА ЗАКАЗ. ${description}`;
+          } else if (present.outOfStock) {
+            wrapperClasses.push(styles.outOfStock);
+            description = `РАСПРОДАН. ${description}`;
+          }
           return (
             <SimpleReactLightbox key={present._id}>
               <SRLWrapper
@@ -28,7 +37,7 @@ function GallerySection(props: IGalleryProps) {
                   },
                 }}
               >
-                <div className={styles.cardWrapper}>
+                <div className={wrapperClasses.join(' ')}>
                   <div className={styles.cardImageWrapper}>
                     <a
                       href={generateImageUrl({

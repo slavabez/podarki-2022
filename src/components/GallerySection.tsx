@@ -10,7 +10,7 @@ interface IGalleryProps {
 
 function GallerySection(props: IGalleryProps) {
   return (
-    <section className={styles.gallerySection}>
+    <section className={styles.gallerySection} id="gallery">
       <div className={styles.galleryHeader}>
         <hr className={styles.mobileSeparator} />
         <h1>Каталог</h1>

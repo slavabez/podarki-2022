@@ -28,11 +28,11 @@ const Home = (props: IHomePageProps) => {
         twitterImageUrl={metaData.socialImageURL}
         canonicalUrl="some url"
       />
-      <GallerySection presents={presents} />
       <ContentSection
         heading={metaData.aboutUsHeading}
         text={metaData.aboutUsParagraph}
       />
+      <GallerySection presents={presents} />
     </Layout>
   );
 };

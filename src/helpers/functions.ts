@@ -7,6 +7,17 @@ interface IParams {
   height?: number;
 }
 
+const getSanityBaselineUrl = () => {
+  const sanityId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID;
+  const sanityDataset = process.env.NEXT_PUBLIC_SANITY_DATASET;
+
+  if (!sanityDataset || !sanityId)
+    throw new Error(`Sanity project ID or dataset not defined`);
+
+  return `https://${sanityId}.api.sanity.io/v1/data/query/${sanityDataset}`;
+};
+
+
 export function generateImageUrl(params: IParams) {
   const { image, height } = params;
   const sanityId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID;
@@ -38,10 +49,10 @@ export async function getSanityData() {
     };
   }
   const allPresents = await fetch(
-    "https://vw14nmwz.api.sanity.io/v1/data/query/production?query=*%5B_type%20%3D%3D%20'present'%5D%20%7C%20order(price)"
+    `${getSanityBaselineUrl()}?query=*%5B_type%20%3D%3D%20'present'%5D%20%7C%20order(price)`
   );
   const allData = await fetch(
-    "https://vw14nmwz.api.sanity.io/v1/data/query/production?query=*%5B_type%20%3D%3D%20'siteSettings'%5D%20%7B%0A%20%20...%2C%0A%20%20%22catalogueURL%22%3A%20catalogue.asset-%3Eurl%2C%0A%20%20%22socialImageURL%22%3A%20socialImage.asset-%3Eurl%0A%7D%5B0%5D"
+    `${getSanityBaselineUrl()}?query=*%5B_type%20%3D%3D%20'siteSettings'%5D%20%7B%0A%20%20...%2C%0A%20%20%22catalogueURL%22%3A%20catalogue.asset-%3Eurl%2C%0A%20%20%22socialImageURL%22%3A%20socialImage.asset-%3Eurl%0A%7D%5B0%5D`
   );
 
   const presents = (await allPresents.json()) as { result: IPresent[] };

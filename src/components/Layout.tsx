@@ -29,7 +29,7 @@ const Layout = (props: ILayoutProps) => {
       <header className={styles.header}>
         <div className={styles.shadow} />
         <div className={styles.headerTopMobile}>
-          <img src="/logo.png" alt="Логотип Сказка" />
+          <img src="/logo.svg" alt="Логотип Сказка" width="180px" />
         </div>
         <div className={styles.headerTopDesktop}>
           <a href={catalogueURL}>
@@ -37,7 +37,7 @@ const Layout = (props: ILayoutProps) => {
             <br />
             каталог
           </a>
-          <img src="/logo_large.png" alt="Логотип Сказка" />
+          <img src="/logo.svg" alt="Логотип Сказка" width="180px" />
           <a href="#footer">
             Наши
             <br />

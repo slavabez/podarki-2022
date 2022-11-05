@@ -51,7 +51,7 @@ function GallerySection(props: IGalleryProps) {
                         className={styles.image}
                         src={generateImageUrl({
                           image: present.cover,
-                          height: 220,
+                          width: 220,
                         })}
                         alt={description}
                       />

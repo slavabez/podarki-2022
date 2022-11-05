@@ -1,10 +1,9 @@
-import { IMetaData, IPresent, ISanityImage } from "./types";
-import mockMetadata from "./metadata_mock.json";
-import mockProducts from "./products_mock.json";
+import {IMetaData, IPresent, ISanityImage} from "./types";
 
 interface IParams {
   image: ISanityImage;
   height?: number;
+  width?: number;
 }
 
 const getSanityBaselineUrl = () => {
@@ -19,7 +18,7 @@ const getSanityBaselineUrl = () => {
 
 
 export function generateImageUrl(params: IParams) {
-  const { image, height } = params;
+  const { image, height, width } = params;
   const sanityId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID;
   const sanityDataset = process.env.NEXT_PUBLIC_SANITY_DATASET;
 
@@ -33,6 +32,7 @@ export function generateImageUrl(params: IParams) {
     let url = `https://cdn.sanity.io/images/${sanityId}/${sanityDataset}/${assetName}-${origWidthHeight}.${origFileFormat}`;
 
     if (height) url = `${url}?h=${height}`;
+    if (width) url = `${url}?w=${width}`;
     return url;
   } catch (e) {
     console.error(`Failed to generate image from this object`);
@@ -42,12 +42,6 @@ export function generateImageUrl(params: IParams) {
 }
 
 export async function getSanityData() {
-  if (process.env.NODE_ENV !== "production") {
-    return {
-      presents: mockProducts.result,
-      metaData: mockMetadata.result,
-    };
-  }
   const allPresents = await fetch(
     `${getSanityBaselineUrl()}?query=*%5B_type%20%3D%3D%20'present'%5D%20%7C%20order(price)`
   );

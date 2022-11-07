@@ -39,9 +39,9 @@ const Layout = (props: ILayoutProps) => {
           </a>
           <img src="/logo.svg" alt="Логотип Сказка" width="180px" />
           <a href="#footer">
-            Наши
-            <br />
-            контакты
+            г.Кокшетау,
+            <br/>
+            Ауезова 191/1
           </a>
         </div>
 
@@ -56,9 +56,9 @@ const Layout = (props: ILayoutProps) => {
           каталог
         </a>
         <a href="#footer">
-          Наши
-          <br />
-          контакты
+          г.Кокшетау,
+          <br/>
+          Ауезова 191/1
         </a>
       </div>
 
